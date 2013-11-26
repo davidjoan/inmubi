@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="search_item_array">
+        <item>Departamentos</item>
+        <item>Casas</item>
+    </string-array>
+    
+    
+    <string-array name="place_array">
+        <item>Alquiler</item>
+        <item>Venta</item>
+    </string-array>
+    
+    
+</resources>
