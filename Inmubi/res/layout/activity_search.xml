@@ -75,6 +75,24 @@
         android:enabled="false"
         android:layout_gravity="center_horizontal"/>
      
+       <TextView
+                android:id="@+id/label_fecha_publicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginTop="17dp"
+                android:text="Mis Busquedas Recientes"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+     
+      <ListView
+          android:id="@+id/search_busquedas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal" >
+
+    </ListView>
+     
      
 
 </LinearLayout>

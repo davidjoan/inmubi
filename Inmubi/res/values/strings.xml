@@ -3,10 +3,13 @@
 
     <string name="app_name">Inmubi</string>
     <string name="action_settings">Settings</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="action_delete">Eliminar</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_advert">Anuncios</string>
     <string name="title_section1">Resultados</string>
     <string name="title_section2">Favoritos</string>
     <string name="title_section3">Ofertas</string>
+    <string name="title_activity_show_advert">Anuncio</string>
 
 </resources>

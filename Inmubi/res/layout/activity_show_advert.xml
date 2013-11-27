@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+    
+    <ScrollView
+          android:layout_width="fill_parent" 
+          
+                    android:layout_marginTop="55dp"
+
+          android:layout_height="fill_parent">
+          
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/show_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departamento en Lince"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            
+             <TextView
+                android:id="@+id/show_precio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/. 15000"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+             
+              <ImageView
+                  android:id="@+id/show_photo"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:adjustViewBounds="true"
+                  android:src="@drawable/propiedad4_generica" />
+
+            <TextView
+                android:id="@+id/label_fecha_publicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detalle:"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/show_detalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Detalle"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+            <TextView
+                android:id="@+id/label_direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección:"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+                   
+            <TextView
+                android:id="@+id/show_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="Direccion" />
+
+
+            <TextView
+                android:id="@+id/label_fecha_publicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  
+                android:layout_marginTop="17dp"
+                android:text="Fecha Publicación:"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/show_publicacion"
+                android:layout_width="wrap_content"
+                        android:layout_marginTop="3dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha Publicacion" />
+            
+            <TextView
+                android:id="@+id/label_origen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  
+                android:layout_marginTop="17dp"
+                android:text="Fuente:"
+                android:textColor="@color/pressed_inmubi"
+                android:textStyle="bold" />
+
+           
+            <TextView
+                android:id="@+id/show_origen"
+                android:layout_width="wrap_content"
+                        android:layout_marginTop="3dp"
+                android:layout_height="wrap_content"
+                android:text="URBANIA" />
+            
+             <Button
+                android:id="@+id/link_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_url"       
+                android:autoLink="web"
+                android:text="Ver Anuncio"
+                android:layout_gravity="center_horizontal" />
+            
+
+           
+
+        </LinearLayout>
+ 
+    </ScrollView>
+</FrameLayout>

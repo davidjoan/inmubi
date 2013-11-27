@@ -4,6 +4,7 @@
 package pe.inmubi.android;
 
 import android.app.Application;
+import pe.inmubi.android.models.Anuncio;
 import pe.inmubi.android.models.Ubigeo;
 
 /**
@@ -12,18 +13,23 @@ import pe.inmubi.android.models.Ubigeo;
  */
 public class InmubiApplication extends Application {
 	
-	Ubigeo Ubigeo;
+	Ubigeo ubigeo;
+
 	
 	String TipoOperacion;
 	
 	String TipoInmueble;
+	
+	Anuncio anuncio;
+	
+	String isLocal;
 
 	public Ubigeo getUbigeo() {
-		return Ubigeo;
+		return ubigeo;
 	}
 
 	public void setUbigeo(Ubigeo ubigeo) {
-		Ubigeo = ubigeo;
+		this.ubigeo = ubigeo;
 	}
 
 	public String getTipoOperacion() {
@@ -41,4 +47,22 @@ public class InmubiApplication extends Application {
 	public void setTipoInmueble(String tipoInmueble) {
 		TipoInmueble = tipoInmueble;
 	}
+
+	public Anuncio getAnuncio() {
+		return anuncio;
+	}
+
+	public void setAnuncio(Anuncio anuncio) {
+		this.anuncio = anuncio;
+	}
+
+	public String getIsLocal() {
+		return isLocal;
+	}
+
+	public void setIsLocal(String isLocal) {
+		this.isLocal = isLocal;
+	}
+	
+	
 }

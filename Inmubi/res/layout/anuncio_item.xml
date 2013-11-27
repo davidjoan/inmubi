@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+    
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/propiedad4_generica"/>
+ 
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_toLeftOf="@+id/list_item_activities_arrow"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="S/.1500 "
+        android:textColor="@color/pressed_inmubi"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toLeftOf="@+id/list_item_activities_arrow"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="CESAR VALLEJO 565 Lince"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/list_item_activities_arrow"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Departamento en Lince"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+     <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+         android:id="@+id/list_item_activities_arrow"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_action_next_item"
+         android:layout_alignParentRight="true"
+         android:contentDescription="@string/app_name"
+         android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
